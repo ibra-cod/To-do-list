@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+}
+
+body {
+    background-color: #944744;
+}
+.p {
+    margin-bottom: 2rem;
+}
+
+.div-p {
+    margin-top: 1.2rem;
+}
+
+p {
+    color: #FFF;
+    font-size: 1.4rem;
+}
+
+ul li {
+    color: #FFF;
+    font-size: 1.5rem;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16rem;
+    width: 100%;
+}
+
+.todo-container {
+    width: 90%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.todo-added-container {
+    margin-left: 3rem;
+}
+
+.message-error1 {
+    color: #ff5733;
+}
+
+.div-todo-added {
+    border-radius: 0.5rem;
+    padding-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 2rem;
+    border-left: white 2px solid;
+    border-bottom: #F3FFB6 2px solid;
+    
+
+}
+
+.li-doto {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.btn {
+    margin: 0.5rem;
+    height: 3em;
+    text-align: center;
+    align-items: center;
+}
+.displayMessage {
+    display: none;
+}
+
+.span-elements {
+   margin-left: 60px;
+}
+
+
+.input-none {
+    width: 100%;
+}
+
+#inputUpdate {
+    display: none;
+}
+
+input {
+    outline: none;
+    border: #ff5733 1px solid;
+    border-radius: 5px;
+    padding: 8px;
+    width: 60%;
+    color: #000000;
+}
+input::placeholder {
+    color: #ff5733;
+}
+button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff5733;
+}
+
+#clearTodo {
+    width: 30%;
+
+}
+
+ul li {
+    list-style: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+
+}
+
+.lineThrought {
+    text-decoration: line-through;
+}
