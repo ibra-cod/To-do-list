@@ -1,3 +1,4 @@
+import { showFolders } from "../js/todo.js";
 // constant declaration
 const button = document.getElementById('addTodoBtn');
 const ul  = document.querySelector('.ul');
